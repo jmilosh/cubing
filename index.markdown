@@ -4,3 +4,36 @@
 
 layout: home
 ---
+<script src="https://cdn.cubing.net/v0/js/cubing/twisty" type="module"></script>
+
+<h1 style="text-align: center;">M2 U' M U2  M' U' M2</h1>
+<twisty-player
+  style="width:800px; height: 500px; margin: 0 auto 60px;"
+  alg="M2 U' M U2  M' U' M2"
+  experimental-setup-anchor="end"
+  back-view="side-by-side">
+</twisty-player>
+
+<h1 style="text-align: center;">M2 U M U2  M' U M2</h1>
+<twisty-player
+  style="width:800px; height: 500px; margin: 0 auto 60px;"
+  alg="M2 U M U2  M' U M2"
+  experimental-setup-anchor="end"
+  back-view="side-by-side">
+</twisty-player>
+
+<h1 style="text-align: center;">M2 U M2 U2 M2 U M2</h1>
+<twisty-player
+  style="width:800px; height: 500px; margin: 0 auto 60px;"
+  alg="M2 U M2 U2 M2 U M2"
+  experimental-setup-anchor="end"
+  back-view="side-by-side">
+</twisty-player>
+<h1 style="text-align: center;">M U M2 U M2 U M U2 M2 U'</h1>
+
+<twisty-player
+  style="width:800px; height: 500px; margin: 0 auto 60px;"
+  back-view="side-by-side"
+  experimental-setup-anchor="end"
+  alg="M U M2 U M2 U M U2 M2 U'">
+</twisty-player>
