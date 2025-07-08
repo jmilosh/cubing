@@ -31,8 +31,6 @@ github_username:  janmilosh
 
 # Build settings
 theme: minima
-plugins:
-  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -54,6 +52,7 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - feed.xml
 
 include:
   - CNAME
