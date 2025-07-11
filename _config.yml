@@ -29,8 +29,6 @@ url: "https://janmilosh.me" # the base hostname & protocol for your site, e.g. h
 twitter_username: janmilosh
 github_username:  janmilosh
 
-# Build settings
-theme: minima
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -53,7 +51,16 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - feed.xml
+  - assets/css/style.scss
+  - README.md
 
 include:
   - CNAME
-  - README.md
+  - _pages
+
+defaults:
+  - scope:
+      path: "_pages"
+      type: "pages"
+    values:
+      permalink: /:basename/ # make URL of pages in the folder _pages as on the root.
