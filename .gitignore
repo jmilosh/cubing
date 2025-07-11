@@ -2,6 +2,6 @@
 .jekyll-cache
 .jekyll-metadata
 vendor
-/_site/feed.xml
+_site
 feed.xml
 **/.DS_Store

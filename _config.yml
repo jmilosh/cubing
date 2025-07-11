@@ -52,6 +52,7 @@ exclude:
   - vendor/ruby/
   - feed.xml
   - assets/css/style.scss
+  - README.md
 
 include:
   - CNAME
